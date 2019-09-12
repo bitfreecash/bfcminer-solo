@@ -45,7 +45,7 @@ all: $(miner_OBJS)
 	$(NVCC)  -std=c++11 $(nvcc_FLAGS) -c $< -o $@
 
 %.o : %.cpp
-	$(CXX) -std=c++11 -O2 -I/root/curl-7.65.3/include -I/usr/local/cuda/include -c $< -o $@
+	$(CXX) -std=c++11 -O2 -Icompat/curl-for-windows -I/usr/local/cuda/include -c $< -o $@
 
 
 clean:
