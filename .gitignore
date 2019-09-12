@@ -1,0 +1,15 @@
+.project
+.cproject
+*.o
+bfcminer
+bfcminer.dSYM
+.settings
+Debug/
+x64/
+rpcminer.sdf
+rpcminer.opensdf
+/rpcminer.VC.db
+/rpcminer.VC.VC.opendb
+/rpcminer.vcxproj.user
+/UpgradeLog.htm
+nohup.out
